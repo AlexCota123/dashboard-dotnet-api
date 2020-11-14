@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{7AC2A048-3430-4DAB-AC5C-91F3742026D9}|Default">
+  <MonoDevelop.Ide.ItemProperties.Dashboard PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dtos/ProjectCreateDto.cs">
+    <Files>
+      <File FileName="Controllers/UserController.cs" Line="61" Column="6" />
+      <File FileName="Dtos/UserCreateDto.cs" Line="8" Column="19" />
+      <File FileName="Models/User.cs" Line="12" Column="19" />
+      <File FileName="Dtos/ProjectCreateDto.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Dashboard" expanded="True">
+            <Node name="Dashboard" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Dtos" expanded="True">
+                <Node name="ProjectCreateDto.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Profiles" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
