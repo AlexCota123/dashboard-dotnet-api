@@ -16,27 +16,11 @@ namespace Dashboard.Data
 
         public IEnumerable<User> GetUsers()
         {
-            //var users = new List<User>
-            //{
-            //    new User{Id = 0, Name = "Alejandro", LastName = "Cota", Age = 23},
-            //    new User{Id = 1, Name = "Luci", LastName = "Diamonds", Age = 24 },
-            //    new User{Id=2, Name="Jose", LastName="Aguirre", Age =26}
-            //};
-           
-
             return _context.Users.ToList();
         }
 
         public User GetUserById(int id)
         {
-            //return new User
-            //{
-            //    Id = 0,
-            //    Name = "Alejandro",
-            //    LastName = "Cota",
-            //    Age = 23
-            //};
-
             return _context.Users.FirstOrDefault(user => user.Id == id);
         }
 
@@ -53,6 +37,17 @@ namespace Dashboard.Data
             }
 
             _context.Users.Add(user);
+        }
+
+        public void UpdateUser(User user)
+        {
+            _context.Users.Update(user);
+
+        }
+
+        public void DeleteUser(User user)
+        {
+            _context.Users.Remove(user);
         }
     }
 }

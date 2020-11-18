@@ -10,5 +10,6 @@ namespace Dashboard.Data
         void CreateProject(Project project);
         IEnumerable<Project> GetProjects();
         Project GetProjectById(int id);
+        IEnumerable<Project> GetProjectsById(IEnumerable<int> ids);
     }
 }

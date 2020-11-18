@@ -1,20 +1,14 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Dashboard.Models
+namespace Dashboard.Dtos
 {
-    public class Task
+    public class TaskCreateDto
     {
 
-        [Key]
-        public int Id { get; set; }
-
-        [Required]
+        [Required(AllowEmptyStrings = false)]
         public string Tittle { get; set; }
 
-        [Required]
         public bool IsDone { get; set; } = false;
-
-        
     }
 }

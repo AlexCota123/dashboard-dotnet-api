@@ -1,24 +1,37 @@
 ﻿<Properties StartupConfiguration="{7AC2A048-3430-4DAB-AC5C-91F3742026D9}|Default">
   <MonoDevelop.Ide.ItemProperties.Dashboard PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dtos/ProjectCreateDto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Profiles/TaskProfile.cs">
     <Files>
-      <File FileName="Controllers/UserController.cs" Line="61" Column="6" />
-      <File FileName="Dtos/UserCreateDto.cs" Line="8" Column="19" />
-      <File FileName="Models/User.cs" Line="12" Column="19" />
-      <File FileName="Dtos/ProjectCreateDto.cs" Line="14" Column="1" />
+      <File FileName="Dtos/TaskReadDto.cs" Line="11" Column="1" />
+      <File FileName="Dtos/UserReadDto.cs" Line="1" Column="1" />
+      <File FileName="Dtos/TaskReadDto.cs" Line="21" Column="38" />
+      <File FileName="Profiles/ProjectProfile.cs" Line="17" Column="1" />
+      <File FileName="Profiles/UserProfile.cs" Line="1" Column="1" />
+      <File FileName="Data/ProjectRepo.cs" Line="31" Column="7" />
+      <File FileName="Data/TaskRepo.cs" Line="39" Column="32" NotebookId="1" />
+      <File FileName="Dtos/ProjectReadDto.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Controllers/TaskController.cs" Line="84" Column="10" NotebookId="1" />
+      <File FileName="Controllers/ProjectController.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Controllers/UserController.cs" Line="42" Column="40" NotebookId="1" />
+      <File FileName="Models/User.cs" Line="7" Column="18" NotebookId="1" />
+      <File FileName="Data/IUserRepo.cs" Line="11" Column="14" NotebookId="1" />
+      <File FileName="Data/UserRepo.cs" Line="28" Column="10" NotebookId="1" />
+      <File FileName="Dtos/TaskReadDtoWOP.cs" Line="14" Column="1" NotebookId="1" />
+      <File FileName="Profiles/TaskProfile.cs" Line="14" Column="43" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Dashboard" expanded="True">
             <Node name="Dashboard" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Dtos" expanded="True">
-                <Node name="ProjectCreateDto.cs" selected="True" />
-              </Node>
+              <Node name="Dtos" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Profiles" expanded="True" />
+              <Node name="Profiles" expanded="True">
+                <Node name="TaskProfile.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
             </Node>
           </Node>

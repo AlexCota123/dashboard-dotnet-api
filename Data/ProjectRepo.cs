@@ -41,5 +41,9 @@ namespace Dashboard.Data
             _context.Projects.Add(project);
         }
 
+        public IEnumerable<Project> GetProjectsById(IEnumerable<int> ids)
+        {
+            return _context.Projects.Where(p => ids.Contains(p.Id)).ToList();
+        }
     }
 }
